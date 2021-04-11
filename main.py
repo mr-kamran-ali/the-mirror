@@ -1,12 +1,13 @@
 import argparse
-import time
-import numpy as np
-import brainflow
-from brainflow.board_shim import BoardShim, BrainFlowInputParams
-from brainflow.data_filter import DataFilter, FilterTypes, AggOperations
-from pynput.keyboard import Listener, Key
-import matplotlib
 import atexit
+import time
+
+import brainflow
+import matplotlib
+import numpy as np
+from brainflow.board_shim import BoardShim, BrainFlowInputParams
+from brainflow.data_filter import AggOperations, DataFilter, FilterTypes
+from pynput.keyboard import Key, Listener
 
 matplotlib.use("Agg")
 from datetime import datetime
