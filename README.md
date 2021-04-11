@@ -30,7 +30,7 @@ Then run `conda create --name the-mirror python=3.8` to create a conda environme
 
 Local app only records EEG data using OpenBCI hardware. For the test we used [Psytoolkit Online IAT Racism](https://www.psytoolkit.org/c/3.3.2/survey?s=DfJfv) online cognitive-psychological experiment. Psytoolkit can also be used offline by just opening `iat_race.html` file in any modern browser. 
 
-*IMPORTANT: at the end of the experiment closing the running python code is important to save the final data from OpenBCI board. Pressing "q" will quit the program and save the data as well in the same directory. Closing the code in terminal will also save the data into the file*
+**IMPORTANT: at the end of the experiment closing the running python code is important to save the final data from OpenBCI board. Pressing "q" will quit the program and save the data as well in the same directory. Closing the code in terminal will also save the data into the file**
 
 *To run local app:*
 
@@ -54,7 +54,7 @@ Local app only records EEG data using OpenBCI hardware. For the test we used [Ps
 
 * **Siddhant Gadamsetti** - *Developer* - [MSc Digital Health, Hasso Plattner Institute Potsdam, Germany](Siddhant.Gadamsetti@student.hpi.uni-potsdam.de)
 * **Florian Hermes** - *Developer* - [MSc Digital Health, Hasso Plattner Institute Potsdam, Germany](Florian.Hermes@student.hpi.uni-potsdam.de)
-* **Kamran Ali** - *Developer* - [MSc Digital Health, Hasso Plattner Institute Potsdam, Germany](Kamran.Ali@student.hpi.uni-potsdam.de)
+* **Kamran Ali** - *Developer* - [MSc Digital Health, Hasso Plattner Institute Potsdam, Germany](kamran-ali.com)
 
 ## License
 

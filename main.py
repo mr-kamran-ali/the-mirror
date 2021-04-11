@@ -162,6 +162,7 @@ def key_in(key):
 
 
 def exit_handler():
+    """Runs when program is about to exit"""
     print("Test Ended")
     end_test()
 
